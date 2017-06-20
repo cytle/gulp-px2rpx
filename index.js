@@ -8,7 +8,7 @@ var extend = require('extend');
 var PLUGIN_NAME = 'gulp-px2rpx';
 
 var defaultConfig = {
-    screenWidth: 640, // 设计稿屏幕
+    screenWidth: 750, // 设计稿屏幕
     wxappScreenWidth: 750 // 微信小程序屏幕
 };
 var reg = /([\d\.])px/g;

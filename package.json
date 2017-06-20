@@ -1,6 +1,6 @@
 {
   "name": "gulp-px2rpx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "微信小程序 px转换为rpx",
   "main": "index.js",
   "scripts": {
