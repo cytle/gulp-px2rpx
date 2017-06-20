@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cytle/gulp-pa2rpx.git"
+    "url": "git+https://github.com/cytle/gulp-px2rpx.git"
   },
   "keywords": [
     "微信小程序"
@@ -16,9 +16,9 @@
   "author": "炒饭",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cytle/gulp-pa2rpx/issues"
+    "url": "https://github.com/cytle/gulp-px2rpx/issues"
   },
-  "homepage": "https://github.com/cytle/gulp-pa2rpx#readme",
+  "homepage": "https://github.com/cytle/gulp-px2rpx#readme",
   "dependencies": {
     "extend": "^3.0.1",
     "gulp-util": "^3.0.8",
