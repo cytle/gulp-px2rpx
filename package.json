@@ -1,0 +1,31 @@
+{
+  "name": "gulp-px2rpx",
+  "version": "0.0.1",
+  "description": "微信小程序 px转换为rpx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cytle/gulp-pa2rpx.git"
+  },
+  "keywords": [
+    "微信小程序"
+  ],
+  "author": "炒饭",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cytle/gulp-pa2rpx/issues"
+  },
+  "homepage": "https://github.com/cytle/gulp-pa2rpx#readme",
+  "dependencies": {
+    "extend": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb": "^15.0.1"
+  }
+}
