@@ -9,14 +9,14 @@ var PLUGIN_NAME = 'gulp-px2rpx';
 
 var defaultConfig = {
     unit: 'rpx', // 单位
-    replaceUnit: 'px', // 被替换的单位
+    replaceUnit: 'px', // 被替换的
     screenWidth: 750, // 设计稿屏幕
     wxappScreenWidth: 750, // 微信小程序屏幕
     remPrecision: 6 // 小数精度, 默认6
 };
 function gulpPx2Rpx (options) {
     options = extend({}, defaultConfig, options);
-    var reg = new RegExp('([\d.]+)' + options.replaceUnit, 'g');
+    var reg = new RegExp('([\\d.]+)' + options.replaceUnit, 'g');
     var ratio = options.wxappScreenWidth / options.screenWidth;
     var remPrecision = options.remPrecision;
     function getValue(val) {
