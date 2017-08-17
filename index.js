@@ -8,6 +8,7 @@ var extend = require('extend');
 var PLUGIN_NAME = 'gulp-px2rpx';
 
 var defaultConfig = {
+    unit: 'rpx', // 单位
     screenWidth: 750, // 设计稿屏幕
     wxappScreenWidth: 750, // 微信小程序屏幕
     remPrecision: 6 // 小数精度, 默认6
@@ -19,7 +20,7 @@ function gulpPx2Rpx (options) {
     var remPrecision = options.remPrecision;
     function getValue(val) {
       val = parseFloat(val.toFixed(remPrecision)); // control decimal precision of the calculated value
-      return val == 0 ? val : val + 'rpx';
+      return val == 0 ? val : val + options.unit;
     }
     return through.obj(function (file, enc, cb) {
         if (file.isNull()) {
