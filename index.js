@@ -16,7 +16,7 @@ var defaultConfig = {
 };
 function gulpPx2Rpx (options) {
     options = extend({}, defaultConfig, options);
-    var reg = new RegExp('([\\d.]+)' + options.replaceUnit, 'g');
+    var reg = new RegExp('([\\d.]*\\d)' + options.replaceUnit, 'g');
     var ratio = options.wxappScreenWidth / options.screenWidth;
     var remPrecision = options.remPrecision;
     function getValue(val) {
