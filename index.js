@@ -1,13 +1,12 @@
 'use strict';
 
-var util = require('gulp-util');
-var PluginError = util.PluginError;
-var through = require('through2');
-var extend = require('extend');
+const PluginError = require('plugin-error');
+const through = require('through2');
+const extend = require('extend');
 
-var PLUGIN_NAME = 'gulp-px2rpx';
+const PLUGIN_NAME = 'gulp-px2rpx';
 
-var defaultConfig = {
+let defaultConfig = {
     unit: 'rpx', // 单位
     replaceUnit: 'px', // 被替换的
     screenWidth: 750, // 设计稿屏幕
