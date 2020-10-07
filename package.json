@@ -21,7 +21,7 @@
   "homepage": "https://github.com/cytle/gulp-px2rpx#readme",
   "dependencies": {
     "extend": "^3.0.1",
-    "gulp-util": "^3.0.8",
+    "plugin-error": "^1.0.1",
     "through2": "^2.0.3"
   },
   "devDependencies": {
